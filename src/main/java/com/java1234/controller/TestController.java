@@ -7,13 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 测试
- * @author java1234_小锋
- * @site www.java1234.com
- * @company 南通小锋网络科技有限公司
- * @create 2022-02-23 11:54
  */
 @RestController
-@RequestMapping("/java1234")
+@RequestMapping("/1111")
 public class TestController {
 
     /**
@@ -22,6 +18,6 @@ public class TestController {
      */
     @GetMapping("/test")
     public R test(){
-        return R.ok("流弊java1234");
+        return R.ok("1111");
     }
 }

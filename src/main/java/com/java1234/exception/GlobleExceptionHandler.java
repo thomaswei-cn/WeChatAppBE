@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author java1234_小锋
- * @site www.java1234.com
- * @company 南通小锋网络科技有限公司
- * @create 2022-04-06 9:24
  */
 @ControllerAdvice
 @ResponseBody

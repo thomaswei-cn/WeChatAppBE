@@ -11,7 +11,7 @@ import com.java1234.service.IOrderDetailService;
 import com.java1234.service.IOrderService;
 import com.java1234.util.*;
 import io.jsonwebtoken.Claims;
-import javafx.scene.input.TouchEvent;
+//import javafx.scene.input.TouchEvent;
 import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,10 +25,6 @@ import java.util.*;
 
 /**
  * 订单Controller控制器
- * @author java1234_小锋
- * @site www.java1234.com
- * @company 南通小锋网络科技有限公司
- * @create 2022-04-05 9:26
  */
 @RestController
 @RequestMapping("/my/order")
